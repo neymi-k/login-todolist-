@@ -17,7 +17,7 @@ app.use(express.static(__dirname + "/public"));
 app.use(express.json());
 
 //Rutas
-app.get("/", (req,res)=> res.sendFile(__dirname + "/pages/login.html"));
+app.get("/", (req,res)=> res.sendFile(__dirname + "/index.html"));
 app.get("/register", (req,res)=> res.sendFile(__dirname + "/pages/register.html"));
 app.get("/todolist", (req,res)=> res.sendFile(__dirname + "/pages/admin/todolist.html"));
 app.post("/api/login", authentication.login);
