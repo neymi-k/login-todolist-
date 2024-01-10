@@ -1,0 +1,154 @@
+body{
+    background: linear-gradient( to bottom right, #E996A5 0.88%, rgba(101, 36, 183, 0.41) 48.21%, #FEFEFE 100%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5C3A6;
+    border-radius: 20px;
+    margin: 150px auto 150px auto;
+    width: 360px;
+    height: 600px;
+}
+
+#user{
+    width: 210px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 100px 90px 0px 90px;
+    background-color: #00000033;
+    border: transparent;
+}
+#password{
+    width: 210px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 20px 90px 0px 90px;
+    background-color: #00000033;
+    border: transparent;
+}
+#email{
+    width: 210px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 20px 90px 0px 90px;
+    background-color: #00000033;
+    border: transparent;
+}
+#button{
+    width: 186px;
+    height: 37px;
+    border-radius: 20px;
+    margin: 25px 102px 40px 102px ;
+    border: transparent;
+    background: #292244;
+    color: rgba(252, 252, 252, 0.81); 
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#register-login a{
+    text-decoration: none;
+    color:  #292244;
+}
+.sr-only{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.escondido{
+    display: none;
+}
+.error{
+    margin: 40px 102px 0px 127px ;
+    color: rgb(215, 67, 67);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #2E4374;
+    width: 194px;
+    height: 39px;
+    color: rgba(252, 252, 252, 0.81);
+    font-size: 30px;
+    margin: 45px auto;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5C3A6;
+    border-radius: 20px;
+    width: 360px;
+    height: 600px;
+    margin: 150px auto 150px auto;
+}
+
+#inputNuevaTarea{
+    width: 133px;
+    height: 19px; 
+    border-radius: 20px;
+    border: none;
+    background: rgba(46, 67, 116, 0.60);
+}
+#btnAgregarTarea{
+    width: 30px;
+    height: 28px; 
+    border-radius: 10px;
+    background: #292244; 
+    border: none;
+    color: rgba(252, 252, 252, 0.81);
+}
+ul{
+    list-style: none;
+}
+.tachado{
+    text-decoration: line-through;
+}
+.enlace-eliminar{
+    margin: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #292244;
+}
+
+.check{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 50%; 
+    border: 1px solid #000;
+    outline: none;
+    cursor: pointer;
+}
+.check:checked{
+    background-color: #0000005a;
+}
+#cerrar-sesion{
+
+        width: 100px;
+        height: 31px;
+        border-radius: 20px;
+        border: none;
+        background-color: #2E4373;
+        color:rgba(252, 252, 252, 0.81); 
+        margin: 220px 0px 0px 205px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ p{
+    margin: 30px 0px 0px 0px;
+ }
+ label{
+    color: #292244;
+ }
